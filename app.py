@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Actualizacion de mensaje, uso de docker."
+    return "return API funcionando en Azure."
 
 
 if __name__ == "__main__":
